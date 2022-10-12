@@ -11,6 +11,7 @@
 		2590E3EB28F69BC100A1CFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2590E3EA28F69BC100A1CFEB /* ContentView.swift */; };
 		2590E3ED28F69BC400A1CFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2590E3EC28F69BC400A1CFEB /* Assets.xcassets */; };
 		2590E3F028F69BC400A1CFEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2590E3EF28F69BC400A1CFEB /* Preview Assets.xcassets */; };
+		2590E3F728F6D52B00A1CFEB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2590E3F628F6D52B00A1CFEB /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2590E3EA28F69BC100A1CFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2590E3EC28F69BC400A1CFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2590E3EF28F69BC400A1CFEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2590E3F628F6D52B00A1CFEB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				2590E3EA28F69BC100A1CFEB /* ContentView.swift */,
 				2590E3EC28F69BC400A1CFEB /* Assets.xcassets */,
 				2590E3EE28F69BC400A1CFEB /* Preview Content */,
+				2590E3F628F6D52B00A1CFEB /* ContentViewModel.swift */,
 			);
 			path = UserLocation;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				2590E3EB28F69BC100A1CFEB /* ContentView.swift in Sources */,
 				2590E3E928F69BC100A1CFEB /* UserLocationApp.swift in Sources */,
+				2590E3F728F6D52B00A1CFEB /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 5LG9W4LANW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 5LG9W4LANW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
